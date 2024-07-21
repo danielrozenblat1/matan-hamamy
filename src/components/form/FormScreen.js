@@ -31,7 +31,7 @@ const Form = () => {
     try {
       const response = await fetch(apiUrl, { method: 'GET',mode: 'no-cors' });
       resetForm()
-     
+      window.location.href = 'https://matanhamamy.ravpage.co.il/thankyoupage205';
     } catch (error) {
       console.error('Error submitting form:', error);
       // ניתן להוסיף כאן טיפול בשגיאות
