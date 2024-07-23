@@ -13,26 +13,53 @@
 .header {
   color: #ffffff;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.highlight {
+.highlight, .highlightY {
   font-family: "Assistant";
   color: #ffffff;
+  margin: 10px 0;
+}
+
+.watchNow {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 15px 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlightYWrapper, .markerWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.highlightY, .marker {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.highlightY {
+  background-color: rgb(255, 238, 88);
+  color: black;
+}
+
+.marker {
+  background-color: #f57f17;
+  font-family: "Assistant";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 .arrows {
   color: #2196F3;
-  margin: 10px 0;
-}
-
-.marker {
-  background-color: #ad4407;
-  padding: 5px;
-  font-family: "Assistant";
-  color: white;
-  margin: 1% auto 15px;
-  text-align: center;
-  font-weight: bold;
+  margin: 15px 0;
+  font-size: 1.2em;
 }
 
 .videoContainer {
@@ -53,42 +80,48 @@
 
 @media screen and (max-width: 350px) {
   .header { font-size: 18px; }
-  .highlight { font-size: 16px; }
-  .arrows { font-size: 16px; }
-  .marker { width: 90%; font-size: 14px; }
+  .highlight, .highlightY { font-size: 14px; }
+  .watchNow { font-size: 18px; }
+  .arrows { font-size: 14px; }
+  .marker { font-size: 12px; }
 }
 
 @media screen and (min-width: 350px) and (max-width: 450px) {
   .header { font-size: 20px; }
-  .highlight { font-size: 18px; }
-  .arrows { font-size: 18px; }
-  .marker { width: 85%; font-size: 16px; }
+  .highlight, .highlightY { font-size: 16px; }
+  .watchNow { font-size: 20px; }
+  .arrows { font-size: 16px; }
+  .marker { font-size: 14px; }
 }
 
 @media screen and (min-width: 450px) and (max-width: 550px) {
   .header { font-size: 22px; }
-  .highlight { font-size: 20px; }
-  .arrows { font-size: 20px; }
-  .marker { width: 80%; font-size: 18px; }
+  .highlight, .highlightY { font-size: 18px; }
+  .watchNow { font-size: 22px; }
+  .arrows { font-size: 18px; }
+  .marker { font-size: 16px; }
 }
 
 @media screen and (min-width: 550px) and (max-width: 650px) {
   .header { font-size: 24px; }
-  .highlight { font-size: 22px; }
-  .arrows { font-size: 22px; }
-  .marker { width: 75%; font-size: 20px; }
+  .highlight, .highlightY { font-size: 20px; }
+  .watchNow { font-size: 24px; }
+  .arrows { font-size: 20px; }
+  .marker { font-size: 18px; }
 }
 
 @media screen and (min-width: 650px) and (max-width: 750px) {
   .header { font-size: 26px; }
-  .highlight { font-size: 24px; }
-  .arrows { font-size: 24px; }
-  .marker { width: 70%; font-size: 22px; }
+  .highlight, .highlightY { font-size: 22px; }
+  .watchNow { font-size: 26px; }
+  .arrows { font-size: 22px; }
+  .marker { font-size: 20px; }
 }
 
-@media screen and (min-width: 750px) and (max-width: 850px) {
+@media screen and (min-width: 750px) {
   .header { font-size: 28px; }
-  .highlight { font-size: 26px; }
-  .arrows { font-size: 26px; }
-  .marker { width: 65%; font-size: 24px; }
+  .highlight, .highlightY { font-size: 24px; }
+  .watchNow { font-size: 28px; }
+  .arrows { font-size: 24px; }
+  .marker { font-size: 22px; }
 }

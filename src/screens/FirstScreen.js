@@ -6,13 +6,18 @@ const DropshippingPromo = () => {
     <div className={styles.container}>
       <h1 className={styles.header}>מעולה!</h1>
       <p className={styles.highlight}>✅ קיבלת גישה להדרכה של מתן ✅</p>
-      <p className={styles.marker}>ההדרכה תישאר פתוחה לזמן מוגבל</p>
-      <p className={styles.highlight}>צפה בה עכשיו (33 דק')</p>
-      <p className={styles.highlight}>(וגלה איך להקים חנות דרופשיפינג ולייצר מקור הכנסה נוסף כל חודש)</p>
+      <div className={styles.markerWrapper}>
+        <span className={styles.marker}>ההדרכה תישאר פתוחה לזמן מוגבל</span>
+      </div>
+      <p className={`${styles.highlight} ${styles.watchNow}`}>צפה בה עכשיו (33 דק')</p>
+      <p className={`${styles.highlight} ${styles.underline}`}>
+        (וגלה איך להקים חנות דרופשיפינג ולייצר מקור הכנסה נוסף כל חודש)
+      </p>
       <div className={styles.arrows}>⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️</div>
-      <p className={styles.highlight}>לחץ על כפתור ה"PLAY" וודא שהסאונד עובד 🔊</p>
+      <div className={styles.highlightYWrapper}>
+        <span className={styles.highlightY}>לחץ על כפתור ה"PLAY" וודא שהסאונד עובד 🔊</span>
+      </div>
       <div className={styles.videoContainer}>
-        {/* כאן יש להוסיף את ה-iframe של YouTube כשיהיה לך את הקישור */}
         <iframe
           width="560"
           height="315"

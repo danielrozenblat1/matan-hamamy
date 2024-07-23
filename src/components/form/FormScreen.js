@@ -50,14 +50,14 @@ const Form = () => {
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <p className={styles.underlinedText}>שלב 2 - אחרי צפייה בקורס המלא</p>
+      <p className={styles.underlinedText}>שלב 2 - אחרי צפייה בהדרכה</p>
       
-      <p className={styles.highlightedText}>אם אתה רוצה ללמוד ממתן חממי את השיטה המלאה</p>
+      <p className={styles.fingerPointer}>אם אתה רוצה ללמוד ממתן חממי את השיטה המלאה</p>
       <p className={styles.highlightedText}>שעוזרת לו ולמאות תלמידים לסחור באיביי במודל דרופשיפינג</p>
       <p className={styles.fingerPointer}>
         👇🏻 תמלא את הפרטים בטופס לשיחת התאמה לתוכנית 👇🏻
       </p>
-      <h2 className={styles.title}>טופס התאמה לתוכנית דרופשיפינג באיביי</h2>
+   
       
       <div className={styles.inputGroup}>
         <label htmlFor="goal">מה המטרה שתרצה להשיג מדרופשיפינג באיביי?</label>

@@ -25,6 +25,7 @@
     color: #000000;
     font-family: "Assistant";
     margin-bottom: 20px;
+
   }
   
   .underlinedText {
@@ -32,6 +33,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 18px;
   }
   
   .highlightedText {
@@ -64,7 +66,8 @@
   }
   
   .submitButton {
-    width: 100%;
+    width: 80%; /* מקטין את הרוחב ל-80% */
+    max-width: 300px; /* מגביל את הרוחב המקסימלי */
     padding: 10px;
     background-color: #FF8000;
     color: white;
@@ -74,6 +77,8 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: block; /* הופך את הכפתור לאלמנט בלוק */
+    margin: 0 auto; /* ממרכז את הכפתור */
   }
   .fingerPointer {
     text-align: center;
