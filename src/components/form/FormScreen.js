@@ -82,22 +82,22 @@ const Form = () => {
 
       <div className={styles.inputGroup}>
         <label htmlFor="fullName">שם מלא</label>
-        <input type="text" id="fullName" value={fullName} onChange={handleFullNameChange} required />
+        <input type="text" placeholder=' מה השם שלך? ' id="fullName" value={fullName} onChange={handleFullNameChange} required />
       </div>
 
       <div className={styles.inputGroup}>
         <label htmlFor="phone">טלפון</label>
-        <input type="tel" id="phone" value={phone} onChange={handlePhoneChange} required />
+        <input type="tel" id="phone" placeholder=' מה המספר שלך? '  value={phone} onChange={handlePhoneChange} required />
       </div>
 
       <div className={styles.inputGroup}>
         <label htmlFor="email">מייל</label>
-        <input type="email" id="email" value={email} onChange={handleEmailChange} required />
+        <input type="email" id="email" placeholder=' מה המייל שלך? '  value={email} onChange={handleEmailChange} required />
       </div>
 
       <div className={styles.inputGroup}>
         <label htmlFor="age">גיל</label>
-        <input type="number" id="age" value={age} onChange={handleAgeChange} required />
+        <input type="number" id="age" placeholder=' בן כמה אתה? '  value={age} onChange={handleAgeChange} required />
       </div>
 
       <button type="submit" className={styles.submitButton}>אני רוצה לקבל פרטים על תכנית הליווי דרופשיפינג באיביי</button>

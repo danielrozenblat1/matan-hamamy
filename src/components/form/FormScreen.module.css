@@ -13,13 +13,17 @@
     justify-content: center;
     padding: 10px 0;
     border: 1px solid #FFCC99;
+    direction:rtl;
     border-radius: 4px;
     background-color: white;
     font-size: 16px;
     color: #333;
     margin:1% auto;
   }
-
+  .inputGroup input::placeholder {
+color:rgb(88, 88, 88);
+font-family: "AssistantR";
+  }
   .title {
     text-align: center;
     color: #000000;
