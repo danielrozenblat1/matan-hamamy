@@ -9,7 +9,7 @@ const DropshippingPromo = () => {
       <div className={styles.markerWrapper}>
         <span className={styles.marker}>ההדרכה תישאר פתוחה לזמן מוגבל</span>
       </div>
-      <p className={`${styles.highlight} ${styles.watchNow}`}>צפה בה עכשיו (33 דק')</p>
+      <p className={`${styles.highlight} ${styles.watchNow}`}>צפה בה עכשיו (21 דק')</p>
       <p className={`${styles.highlight} ${styles.underline}`}>
         (וגלה איך להקים חנות דרופשיפינג ולייצר מקור הכנסה נוסף כל חודש)
       </p>
